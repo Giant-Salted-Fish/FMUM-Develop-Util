@@ -12,9 +12,9 @@ public final class ModelConverter
 	static final String f0 = "0F";
 	static final String[] DEF_ROT = { f0, f0, f0 };
 	
-	static final String DEF_SRC = "F:/works/Java/ModelOptimizer/resources/src.java";
+	static final String DEF_SRC = "F:/works/Java/FMUMModelHelper/run/src.java";
 	
-	public static void main(String[] args)
+	public static void Main(String[] args)
 	{
 		String srcFile = args.length < 1 ? DEF_SRC : args[0];
 		
