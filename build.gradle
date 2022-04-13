@@ -1,0 +1,23 @@
+buildscript {
+	repositories { gradlePluginPortal() }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'com.fasterxml.jackson.core:jackson-core:2.9.6'
+	compile 'com.fasterxml.jackson.core:jackson-annotations:2.9.6'
+	compile 'com.fasterxml.jackson.core:jackson-databind:2.9.6'
+}
