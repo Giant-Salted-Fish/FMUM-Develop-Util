@@ -17,7 +17,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class KeyPointsParser
 {
-	static final String DEF_SRC = "F:/works/Java/FMUMModelHelper/run/test.json";
+	static final String DEF_SRC = "D:/Work/Java/FMUM-Develop-Util/run/src.java";
 	
 	static Pattern KEY_PATTERN = Pattern.compile("\".*\"");
 	

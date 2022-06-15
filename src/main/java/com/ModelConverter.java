@@ -12,7 +12,7 @@ public final class ModelConverter
 	static final String f0 = "0F";
 	static final String[] DEF_ROT = { f0, f0, f0 };
 	
-	static final String DEF_SRC = "F:/works/Java/FMUMModelHelper/run/src.java";
+	static final String DEF_SRC = "D:/Work/Java/FMUM-Develop-Util/run/src.java";
 	
 	public static void Main(String[] args)
 	{
